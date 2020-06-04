@@ -2,11 +2,34 @@
 <html lang='en'>
 <head>
   <meta charset='UTF-8'>
-  <title></title>
+  <title>Error page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
+  <style>
+      body {
+          background-color: lightgoldenrodyellow;
+          font-family: 'Lexend Tera', sans-serif;
+      }
+      .error_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      .error_wrapper > .error_heading {
+          margin-bottom: 42px;
+      }
+      img {
+          width: 50%;
+      }
+  </style>
 </head>
 <body>
-  <h1>Hi Flexbox</h1>
-
-  <p>Some content</p>
+  <div class="error_wrapper">
+      <div class="error_heading">
+          <h2>Yikes... Who knows then that page will be available, but for now enjoy this picture</h2>
+      </div>
+      <img src="IMG_0718.PNG" alt="">
+  </div>
 </body>
 </html>
